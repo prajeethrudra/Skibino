@@ -1,0 +1,38 @@
+.box1{
+	width:910px;height:900px;background-color:transparent;}
+.profilecard{ box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    0 2px 2px rgba(0,0,0,0.3),
+    0 0 4px 1px rgba(0,0,0,0.2),
+    inset 0 3px 2px rgba(255,255,255,.22), 
+    inset 0 -3px 2px rgba(0,0,0,.15), 
+    inset 0 20px 10px rgba(255,255,255,.12), 
+    0 0 4px 1px rgba(0,0,0,.1), 
+    0 3px 2px rgba(0,0,0,.2);
+	border-radius:4px;margin-top:5px;float:left;margin-right:20px;margin-bottom:20px;
+	width:280px; height:400px;background:#11171c; background-size:cover; }
+.popularitycard{position:relative;width:280px;height:75px;border-bottom:2px solid #000;}
+/*.thera{position:relative;width:280px;height:400px;background:url(../images/i) repeat;
+border-radius:4px;}*/
+.profilecarddetails{position:relative;width:280px;height:250px;border-bottom:2px solid #000;background-color:#cc4d4d;}
+profilebuttons{position:relative;width:280px;background-color:#000; height:75px; border-radius:4px;color:#FFF;}
+.popicon{ width:48px;height:48px;background-image:url(../images/combo-48%20white.png);float:left; margin-left:30px; margin-top:10px}
+.popnumber{ width:200px; height:50px; background-color:transparent; float:left;position:relative; color:#fff;margin-top:auto;}
+.popnumber1{position:absolute;font-size:36px; margin-left:10px; margin-top:12px; font-family: "Monda","myfont";color:#cc4d4d;}
+.profilecarddetailsimg{ width:150px; height:150px; border-radius:50%; margin-left:60px;border:5px solid #fff; margin-top:10px;}
+.profilename{ font-family: "Monda","myfont";position:relative;font-size:24px;
+color:#FFF; width:280px; margin:auto;text-align:center;}
+.profilegenre{ font-family: "Monda","myfont";text-align:center;}
+.profilename:hover,.profilegenre:hover{ color:#fff; cursor:pointer;}
+.profileloopers,.addtoloopers,.contact{ width:92px; height:71px; float:left;position:relative;}
+.profileloopers:hover,.addtoloopers:hover,.contact:hover{ cursor:pointer;}
+.profileloopers{background-color:;}
+.addtoloopers{background:url(../images/link-48.png) no-repeat; background-position:center;border-left:2px solid #000;border-right:2px solid #000; }
+.contact{background:url(../images/business-contact-48.png) no-repeat; background-position:center;}
+.loopers{ width:92px; height:40px; background-color:; position:relative;background:url(../images/conference-32.ico) no-repeat; background-position:center;}
+.looperscount{width:92px; height:35px;margin-top:3px;;font-family: "Monda","myfont"; color:#FFF;}
+.loopers>span{font-size:18px;position:absolute;margin:auto;font-family: "Monda","myfont";margin-left:2px;margin-top:10px;color:#cc4d4d; }
+.looperscount>span{ margin-left:20px;color:#cc4d4d; }
+.loopers:hover{background:url(../images/conference-32%20white.png) no-repeat; background-position:center;}
+.addtoloopers:hover{background:url(../images/link-48%20white.png) no-repeat; background-position:center;}
+.contact:hover{background:url(../images/business-contact-48%20white.png) no-repeat; background-position:center;}

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+ <script type="text/javascript" src="js/TimeCircles.js"></script>
+  <link rel="stylesheet" href="css/TimeCircles.css" />
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<link href="fonts/theleagueof-league-gothic-64c3ede/LeagueGothic-CondensedRegular.otf" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
+	</head>
+
+<body>
+  <div class="all">
+    <div class="left menu" style="clear:both;">
+      
+        <!--main title ie skibino-->       
+         <div class="menucontent"><div class="title"><img src="images/SKIBINO CONFIRMED.jpg" width="200" height="60"/></div><!--menu with icons-->
+           <div class="components">           
+              <img src="images/dashboard.ico"><p><a href="">Profile</a></p></img>
+           </div>
+           <div class="components">           
+              <img src="images/stack-of-photos.ico"><p><a href="">My Crafts</a></p></img>
+           </div>
+           <div class="components">           
+              <img src="images/500px-4-32.ico"><p><a href="">LoopBox</a></p></img>
+           </div>
+           <div class="components">           
+              <img src="images/television.ico"><p><a href="">Arena</a></p></img>
+           </div>
+            <div class="components">           
+              <img src="images/conference-32.ico"><p><a href="">Loopers</a></p></img>
+           </div>
+           <div class="components">           
+              <img src="images/settings.ico"><p><a href="">Settings</a></p></img>
+           </div>
+         </div>
+      
+      </div>
+           
+      
+      <div class="rightcon">
+      <div class="toolbar">
+         <form action="#" method="post">
+                <ul class="search-form" style="list-style:none;">
+                    <li><label for="search"><img src="images/search.png" id="simg"/></label></li>
+                    <li><input type="text" id="search" name="search" placeholder="Search by Name,Profession,Crafts....."></li>
+                </ul>
+            </form>
+            <div class="box">
+            <img src="images/upload-48.ico" width="38" height="38"/></div>
+          
+            <div class="box1">
+            <img src="images/logout-48.ico" width="38" height="38"/></div>
+           
+             <div id="CountDownTimer" data-date="2014-2-25 00:00:00"
+             style="width:300px; position:absolute;"></div>
+           
+           </div>
+      <div class="right">
+           <div class="test"></div>
+           
+           
+           
+           
+           
+           
+      </div>  
+</div>
+
+
+
+</div>
+<script>$(".demo").TimeCircles();
+     $("#DateCountdown").TimeCircles();
+            $("#CountDownTimer").TimeCircles({ time: { Days: { show: true }, Hours: { show: true } }});
+            $("#PageOpenTimer").TimeCircles();
+            
+            var updateTime = function(){
+                var date = $("#date").val();
+                var time = $("#time").val();
+                var datetime = date + ' ' + time + ':00';
+                $("#DateCountdown").data('date', datetime).TimeCircles().start();
+            }
+            $("#date").change(updateTime).keyup(updateTime);
+            $("#time").change(updateTime).keyup(updateTime);
+            
+            // Start and stop are methods applied on the public TimeCircles instance
+            $(".startTimer").click(function() {
+                $("#CountDownTimer").TimeCircles().start();
+            });
+            $(".stopTimer").click(function() {
+                $("#CountDownTimer").TimeCircles().stop();
+            });
+
+            // Fade in and fade out are examples of how chaining can be done with TimeCircles
+            $(".fadeIn").click(function() {
+                $("#PageOpenTimer").fadeIn();
+            });
+            $(".fadeOut").click(function() {
+                $("#PageOpenTimer").fadeOut();
+            });
+</script>
+
+</body>
+
+</html>

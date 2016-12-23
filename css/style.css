@@ -1,0 +1,181 @@
+/* CSS Document */
+body
+{background-color:#fff;
+margin:0px;
+}
+@font-face {
+    font-family: "Monda","myfont";
+    src:url(../d-QWLnp4didxos_6urzFtg.woff) format('woff');
+}
+@font-face {
+    font-family: "myfont1";
+    src:url(../grlryt2bdKIyfMSOhzd1eA.woff) format('woff');
+}
+.leftmenu{
+}
+@font-face{
+	font-family:"leaguegothic condensed regular";
+	src:url(../fonts/theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-condensed-regular-webfont.woff);
+}
+.title
+{
+
+width:200px;
+height:100px;
+}
+.menucontent
+{
+	background-color:#11171c;
+	width:200px;
+	height:100%;;
+font-family:"Monda", Courier, monospace;
+	color:#FFF;
+	font-size:24px;
+	position:fixed;
+}
+.components{
+	width:160px;
+	height:50px;
+	cursor:pointer;
+	margin-top:20px;margin-left:15px; margin-bottom:-10px;
+	position:relative;
+	
+	
+}
+.components:hover{
+	background-color:#1c242b;
+	 border-radius:6%; border-bottom-color:#cc4d4d; border-bottom-style:solid;
+	
+}
+.components>img
+{
+	margin-top:12px; margin-left:15px;
+	float:left;position:relative; width:24px;height:24px;
+}
+.components>p
+{	margin-left:50px;padding-top:10px;
+	position:relative; font-size:18px;font-family: 'Happy Monkey','Monda', sans-serif;
+}
+a{
+text-decoration:none;
+color:#FFF;	
+}
+.components:visited {
+	border-radius:6%; border-left-color:#cc4d4d; border-left-style:solid;
+	}
+	.leftmenu{position:fixed;}
+/*profile*/
+.embossed-link{
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    0 2px 2px rgba(0,0,0,0.3),
+    0 0 4px 1px rgba(0,0,0,0.2),
+    inset 0 3px 2px rgba(255,255,255,.22), 
+    inset 0 -3px 2px rgba(0,0,0,.15), 
+    inset 0 20px 10px rgba(255,255,255,.12), 
+    0 0 4px 1px rgba(0,0,0,.1), 
+    0 3px 2px rgba(0,0,0,.2);
+	font-family:"myfont1",sans-serif; font-size:32px;
+	margin-left:422px; position:absolute; background-color:#11171c;color:#FFF; border-color:transparent;}
+
+.embossed-link:active {
+  box-shadow: 
+    inset 0 -2px 1px rgba(255,255,255,0.2),
+    inset 0 3px 2px rgba(0,0,0,0.12);
+}
+.embossed-link>img{
+margin-left:10px;
+}
+.name{ width:500px; height:100px; background-color:#cc4d4d;margin-top:50px; }
+.toolbar{ 
+	 position:fixed;height:60px; width:926px; margin-left:200px; z-index:1000;
+	   background-color:#fff;float:left;
+	 border-style: solid;
+border-width: 0px 0px 5px;
+-moz-border-image: url(../images/bg-header2.png) 20 71 4 45 repeat round;
+-webkit-border-image: url(../images/bg-header2.png) 20 71 4 45 repeat round;
+-o-border-image: url(../images/bg-header2.png) 20 71 4 45 repeat round;
+border-image: url(../images/bg-header2.png) 20 71 4 45 repeat round;	/*   box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    0 2px 2px rgba(0,0,0,0.3),
+    0 0 4px 1px rgba(0,0,0,0.2),
+    inset 0 3px 2px rgba(255,255,255,.22), 
+    inset 0 -3px 2px rgba(0,0,0,.15), 
+    inset 0 20px 10px rgba(255,255,255,.12), 
+    0 0 4px 1px rgba(0,0,0,.1), 
+    0 3px 2px rgba(0,0,0,.2);*/
+}
+#pagename{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:36px;	}
+	 .box{ height:42px; width:42px; margin-left:830px;float:left;
+			background:url(../images/arrow-184-42%20new%20color.png);
+		 }
+		 .box3{height:42px; width:42px; margin-left:830px;float:left;}
+	.box:hover{background:url(../images/arrow-184-42%20red.png); cursor:pointer;
+		}
+	.box2:hover{background:url(../images/logout-32.png);}	 
+	.box2{ height:32px; width:32px; background:url(../images/logout-32%20new%20color.png); margin-left:885px;
+	float:left; margin-top:-38px;float:left;}
+		#simg{position:absolute;margin-left:90px; margin-top:-10px; float:left;}
+	
+	.right{ margin-left:210px;width:810px; height:800px; background:#cc4d4d; margin-top:100px; position:absolute;}
+.test{ width:10px; height:500px; background:#000;  position:absolute; }	
+#CountDownTimer{margin-top:-5px;
+	margin-left:850px;width:280px; position:absolute;}
+	
+#mainsearchbar{ width:500px; height:50px; background-color:transparent;margin-left:10px;margin-top:5px;position:relative;
+float:left;}
+#radmaker{width:500px;height:35px; background-color:transparent;border:#4a2030 solid 2px; border-radius:24px;
+margin-left:140px; margin-top:6px;}
+.mac{float:left; margin-top:0px;width:448px;height:30px;padding-left:50px;border:none;background-color:transparent;
+position:relative;font-family:"Monda"; font-size:20px;}
+.mac:-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000;
+}
+.mac:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #11171c;
+}
+.mac:-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #11171c;
+}
+.mac:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #11171c;
+}
+
+
+.mac:focus { 
+  outline: none;
+  box-shadow: 
+    inset 0 2px 0 rgba(0,0,0,.2), 
+    0 0 4px rgba(0,0,0,0.1),
+    0 0 5px 1px #fff;
+}
+						
+	
+#searchimage{width:32px;height:32px;background:url(../images/rendered1%20black.png); margin-top:2px;float:left;
+margin-left:10px;position:absolute; background-size:64px 64px; background-position:center;}
+
+#iconset{width:186px; height:50px; background-color:transparent;float:left;margin-top:5px;position:relative; margin-left:230px;} 
+#notifications{float:left;width:42px;height:42px;background:url(../images/message-42%20new%20color.png) no-repeat; padding-left:10px; padding-right:10px;background-position:center; margin-top:6px;
+}
+#notifications:hover{background:url(../images/message-42.png) no-repeat;background-position:center;cursor:pointer;}
+#spannotify{width:16px;height:16px;float:left; margin-top:4px;margin-left:-14px;position:relative;
+-moz-border-radius-topleft: 90px;
+-webkit-border-top-left-radius: 90px;
+ border-top-left-radius: 90px;
+-moz-border-radius-topright: 90px;
+-webkit-border-top-right-radius: 90px;
+border-top-right-radius: 90px;
+-moz-border-radius-bottomright: 90px;
+-webkit-border-bottom-right-radius: 90px;
+border-bottom-right-radius: 90px;
+background-color:#11171c;}
+#spannotify>span{color:#FFF;font-size:12px;text-align:center;position:relative;margin-left:6px;}
+#upload{float:left;width:42px;height:42px;background-color:#fcd;background:url(../images/arrow-184-42%20new%20color.png) no-repeat; padding-left:18px; padding-right:10px;background-position:center; margin-top:6px;}
+#upload:hover{background:url(../images/arrow-184-42%20red.png) no-repeat;background-position:center;cursor:pointer;}
+
+#logout{float:left;width:42px;height:42px;background-color:#fcc;background:url(../images/logout-32%20new%20color.png) no-repeat; padding-left:10px; padding-right:0px;background-position:center; margin-top:6px;
+}
+#logout:hover{background:url(../images/logout-32.png) no-repeat;background-position:center;cursor:pointer;}
+
+	.chatterbox{ width:220px; height:700px;background-color:#CCCCCC;float:right; position:fixed;margin-left:1128px;}
+	

@@ -1,0 +1,12 @@
+.tooltipster-punk {
+	border-radius: 5px; 
+	border-bottom: 3px solid #fff;
+	background:url(../../images/micro_carbon.png) repeat;
+	color: #fff;
+}
+.tooltipster-punk .tooltipster-content {
+	font-family:  Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}

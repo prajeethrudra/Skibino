@@ -1,0 +1,32 @@
+body
+{
+	background-color:#f5f6f7;
+	margin:0px auto;
+}
+
+#toplogo
+{
+	width:200px;
+	height:100px;
+	background-color:#0f0e10;
+	background-image:url(../img/noise.png);
+	
+}
+#ss
+{
+	width:200px;
+	height:500px;
+	background-color:#bd4030;
+	background-image:url(../img/noise.png);
+	margin-top:-20px;
+}
+li
+{
+	list-style-type:none;
+	text-align:center;
+    padding-top:20px;	
+	padding-right:250px;
+	color:#f5f6f7;
+	font-family: "Bradley Hand ITC";	
+
+}

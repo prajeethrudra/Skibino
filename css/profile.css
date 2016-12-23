@@ -1,0 +1,91 @@
+
+@font-face{
+	font-family:"leaguegothic condensed regular";
+	src:url(../fonts/theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-condensed-regular-webfont.woff);
+}
+
+.box1{
+	width:880px;height:700px; background-color:#fff;}
+	.profile{
+	width:910px;height:100px; background-color:#cc4d4d;}
+	.userinfo{
+	width:910px;height:350px; background-image:url(../images/Gaussian-Blur-l.jpg);background-repeat:no-repeat; background-size: 100%;
+	}
+.forg{
+	float:left;}
+.forg > #border{ border-radius:50%; 
+	 border-bottom:#fff solid 5px; border-top:#fff solid 5px;border-right:#fff solid 5px;border-left:#fff solid 5px;
+position:relative;box-shadow: 0 0 25px 20px rgba(0,0,0,.35); margin-top:50px; margin-left:50px;
+}
+
+.details{width:500px;height:250px;/* background-color:#000;*/position:absolute; margin-left:300px; margin-top:10px;}
+
+.profilename>p{ font-family:"Monda"; color:#FFF; font-size:34px; margin-bottom:0px;text-shadow: 4px 4px 2px rgba(0, 0, 0, 1)
+	
+	}
+	.profiledetails>p{ font-family:"Monda"; color:#FFF; font-size:20px; margin-left:40px; margin-top:0px; position:relative;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 1)
+	}
+	.profiledetails{ position:relative;}
+	.profiledetails>img{ float:left;}
+	.embossed-link { width:120px;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    0 2px 2px rgba(0,0,0,0.3),
+    0 0 4px 1px rgba(0,0,0,0.2),
+    inset 0 3px 2px rgba(255,255,255,.22), 
+    inset 0 -3px 2px rgba(0,0,0,.15), 
+    inset 0 20px 10px rgba(255,255,255,.12), 
+    0 0 4px 1px rgba(0,0,0,.1), 
+    0 3px 2px rgba(0,0,0,.2);
+	font-family:"leaguegothic condensed regular",sans-serif; font-size:32px;margin-top:-262px;
+	margin-left:460px; position:absolute; background-color:#11171c;color:#FFF; border-color:transparent;}
+
+.embossed-link:active {
+  box-shadow: 
+    inset 0 -2px 1px rgba(255,255,255,0.2),
+    inset 0 3px 2px rgba(0,0,0,0.12);
+}
+.embossed-link>img{
+margin-left:10px;
+}
+
+.box1{margin-left:0px; margin-top:0px;}
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 200px;
+  height: 190px;
+  z-index: 1; border-radius:50%; 
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear; border-radius:50%; 
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;  
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 0px;
+  color: white;
+  text-align: center;border-radius:50%; border:#FFF 6px solid;
+   border-radius:50%; background:url(images/web-user.png) no-repeat; background-size:200px 200px;
+   background-position:center;
+}
+.bfinfo{ margin-top:50px;position:relative;}
